@@ -14,6 +14,7 @@ export default function Author() {
               alt="author_img"
               height={50}
               width={50}
+              layout="fill"
             />
           </a>
           <div className="flex flex-col ml-4">
@@ -87,9 +88,7 @@ export default function Author() {
             className="flex items-center rounded-full shadow-lg h-[50px] w-[50px] bg-primary-color"
           ></a>
           <div className="flex flex-col ml-4">
-            <h5 className="text-base font-bold text-gray-900 tracking-widest">
-              Jon Doe
-            </h5>
+            <h5 className="text-base font-bold text-gray-900 tracking-widest">Jon Doe</h5>
             <span className="text-xs text-gray-500">Jan-21-2022</span>
           </div>
         </div>

@@ -12,7 +12,13 @@ export default function NavBar() {
           href="#"
           className="flex flex-col items-center leading-[0.2px] py-3 cursor-pointer"
         >
-          <Image src="/images/scbp-logo.png" width={42} height={42} alt="logo" />
+          <Image
+            src="/images/scbp-logo.png"
+            width={42}
+            height={42}
+            alt="logo"
+            layout="fill"
+          />
           <small className="text-[8px] text-para-color tracking-widest font-extralight">
             SCBP
           </small>

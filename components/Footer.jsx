@@ -29,7 +29,13 @@ export default function Footer() {
         <hr className="w-[90%] mx-auto mt-4" />
         <div className="flex flex-col md:flex-row items-center justify-center md:gap-4 mb-8 md:mt-2">
           <a href="#" className="flex flex-col items-center leading-[0.2px] mb-2 md:mb-0">
-            <Image src="/images/scbp-logo.png" width={42} height={42} alt="logo" />
+            <Image
+              src="/images/scbp-logo.png"
+              width={42}
+              height={42}
+              alt="logo"
+              layout="fill"
+            />
             <small className="text-[8px] text-para-color tracking-widest font-extralight">
               SCBP
             </small>
@@ -51,6 +57,7 @@ export default function Footer() {
                 width={100}
                 height={30}
                 alt="contact_log"
+                layout="fill"
               />
             </a>
           </div>

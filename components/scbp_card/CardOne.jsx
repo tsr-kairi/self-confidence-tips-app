@@ -11,6 +11,7 @@ export default function CardOne({ item }) {
           alt="part_1_img_1"
           height={500}
           width={850}
+          layout="fill"
         />
       </a>
       <div className="p-5">
