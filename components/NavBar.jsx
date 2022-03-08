@@ -12,7 +12,7 @@ export default function NavBar() {
           href="#"
           className="flex flex-col items-center leading-[0.2px] py-3 cursor-pointer"
         >
-          <Image src={"/images/scbp-logo.png"} width={42} height={42} alt="logo" />
+          <Image src="/images/scbp-logo.png" width={42} height={42} alt="logo" />
           <small className="text-[8px] text-para-color tracking-widest font-extralight">
             SCBP
           </small>
@@ -77,7 +77,7 @@ export default function NavBar() {
           </li>
           <li className="">
             <a
-              href="#"
+              href="#self-care"
               className="flex items-center p-2 px-2 text-sm font-thin hover:text-white text-[#e4ecdc] rounded-sm hover:border-b hover:border-[#e4ecdc] capitalize"
             >
               Practicing Self-Care
@@ -85,7 +85,7 @@ export default function NavBar() {
           </li>
           <li className="">
             <a
-              href="#"
+              href="#goals"
               className="flex items-center p-2 px-2 text-sm font-thin hover:text-white text-[#e4ecdc] rounded-sm hover:border-b hover:border-[#e4ecdc] capitalize"
             >
               Goals and Taking Risks
