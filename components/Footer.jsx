@@ -34,7 +34,7 @@ export default function Footer() {
               width={42}
               height={42}
               alt="logo"
-              layout="fill"
+              // layout="fill"
             />
             <small className="text-[8px] text-para-color tracking-widest font-extralight">
               SCBP
@@ -57,7 +57,6 @@ export default function Footer() {
                 width={100}
                 height={30}
                 alt="contact_log"
-                layout="fill"
               />
             </a>
           </div>

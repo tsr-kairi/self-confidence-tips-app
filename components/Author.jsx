@@ -14,7 +14,6 @@ export default function Author() {
               alt="author_img"
               height={50}
               width={50}
-              layout="fill"
             />
           </a>
           <div className="flex flex-col ml-4">
